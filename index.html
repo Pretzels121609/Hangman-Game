@@ -4,16 +4,45 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>The Great Outdoors Hangman</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="large-heading">The Great Outdoors</p>
+                <p class="heading">Hangman Game</p>
+            </div>
+        </div>                              
+        
+        <div class="row">
+            <div class="section col-sm-12 col-md-6 col-lg-6">
+                <h3>wins: <span id="wins"></span></h3>
+                <h3>losses: <span id="losses"></span></h3>
+            </div>
+            <div class="section col-sm-12 col-md-6 col-lg-6">
+                <h3>Guesses Left: <span id="guesses-left"></span></h3>
+                <h3>Guessed Letters: <span id="guessed-letters"></span></h3>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2 id="word"></h2>
+            </div>
+        </div>
 
-    <script src="assets/javascript/game.js">
-    </script>
-      
- 
-    
+        <!-- 
+            wins √
+            losses √
 
-   
+            word √
+            guesses left
+            guessed letters
+        -->
+    </div>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>

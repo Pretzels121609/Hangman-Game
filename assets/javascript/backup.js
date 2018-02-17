@@ -96,7 +96,6 @@ function imputCompare(userInput){
 // we capture the key that is pressed
     // make sure the key is lowercse
 // log it to the console
-
 document.onkeyup = function() {
     var userguess = String.fromCharCode(event.keyCode).
         toLowerCase();
